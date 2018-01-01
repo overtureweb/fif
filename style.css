@@ -4,19 +4,19 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-#test {
+div#letter-generator-container {
     display: flex;
     justify-content: center;
 }
 
-h1, h3 {
-    font-weight: 300;
-    margin: 0;
+h1 {
+    font-weight: 200;
+    margin-bottom: 1rem;
 }
 
 h3 {
+    font-weight: 300;
     text-transform: uppercase;
-    margin: 1rem 0 2rem;
 }
 
 td {
@@ -27,6 +27,11 @@ td.the-letter {
     text-transform: uppercase;
     font-weight: bolder;
     align-content: center;
+}
+
+tr:last-of-type td {
+    border-top: 1px solid #DDD;
+    padding-top: 2em;
 }
 
 button {

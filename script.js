@@ -1,6 +1,4 @@
 window.addEventListener('load', () => {
-    "use strict";
-
     const btn = document.querySelector("#generateLetters");
     btn.addEventListener("click", getLetters, false);
 

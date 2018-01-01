@@ -3,7 +3,7 @@ const babel = require("gulp-babel");
 const uglify = require("gulp-uglify");
 
 gulp.task("default", () => {
-    return gulp.src("script.js")
+    return gulp.src("./es6/**/*.js")
         .pipe(babel({
             presets: ["env"]
         }))

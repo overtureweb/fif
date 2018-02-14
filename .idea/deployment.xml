@@ -5,7 +5,7 @@
       <paths name="Bitnami">
         <serverdata>
           <mappings>
-            <mapping deploy="/fif" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/factsinfive" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

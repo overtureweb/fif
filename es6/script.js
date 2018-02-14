@@ -2,8 +2,6 @@ window.addEventListener('load', () => {
     const btn = document.querySelector("#generateLetters");
     btn.addEventListener("click", getLetters, false);
 
-    getLetters();
-
     function getLetters() {
         const theLetters = [...document.querySelectorAll(".the-letter")];
         let sequence = "aabbbcccdddeeffgghhhijjkllmmmnnopppqrrsssttuvwwyz**";
@@ -15,6 +13,8 @@ window.addEventListener('load', () => {
             el.innerHTML = ` ${aLetter}`;
         });
     }
+
+    getLetters();
 });
 
 

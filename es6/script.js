@@ -19,7 +19,8 @@
         chosenItems.forEach((el) => {
             let newEl = document.createElement("h1");
             newEl.innerHTML = el;
-            newEl.classList.add("mb-3");
+            newEl.classList.add("mb-3","letter");
+            setTimeout(() => newEl.classList.add("show"),100);
             container.appendChild(newEl);
         });
     };
